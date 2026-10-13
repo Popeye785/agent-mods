@@ -6,9 +6,9 @@ Three mods for [Claude Code](https://claude.com/claude-code). English or German,
 |---|---|
 | **modellwahl** (model choice) | Picks the Claude model per task: small talk on small models, coding never below Sonnet, hard work on the large model. `!sonnet`, `!opus`, `!haiku`, `!auto` decide for you. |
 | **lagezeile** (status line) | After every answer one quiet line: context, 5-hour and weekly usage, session cost. |
-| **fangnetz** (safety net) | Before `rm`, `git reset --hard`, `git clean`, overwriting `mv`/`cp` and similar commands it shows what would be hit and first saves a verified local copy. Bring files back with `/fangnetz restore`. Never asks, never blocks. |
+| **fangnetz** (safety net) | Before `rm`, `git reset --hard`, `git clean`, overwriting `mv`/`cp` and similar commands it shows what would be hit and first saves a verified local copy (within size and time limits; not a replacement for backups). Bring files back with `/fangnetz restore`. Never asks, never blocks. |
 
-**Buy:** [Gumroad](https://hchristian.gumroad.com/l/zbpyjs) · 79 € · for businesses only (§ 14 BGB)
+**Buy:** [Gumroad](https://hchristian.gumroad.com/l/vpayk) · 79 € · for businesses only (§ 14 BGB)
 
 ## Installation
 Unzip the package, then in Claude Code:
@@ -36,10 +36,12 @@ The public key `christian-heilig.pub` is in this repository.
 
 # agent-mods für Claude Code
 
-Drei Mods für Claude Code: **modellwahl** (wählt das Modell je Aufgabe), **lagezeile** (ruhige Verbrauchszeile nach jeder Antwort), **fangnetz** (zeigt vor `rm`, `git reset --hard` u. Ä., was getroffen würde, und legt zuerst eine geprüfte lokale Kopie an). Deutsch oder Englisch, nur lokal, keine Telemetrie.
+Drei Mods für Claude Code: **modellwahl** (wählt das Modell je Aufgabe), **lagezeile** (ruhige Verbrauchszeile nach jeder Antwort), **fangnetz** (zeigt vor `rm`, `git reset --hard` u. Ä., was getroffen würde, und legt zuerst eine geprüfte lokale Kopie an – innerhalb von Größen- und Zeitgrenzen, ersetzt keine Datensicherung). Deutsch oder Englisch, nur lokal, keine Telemetrie.
 
-**Kaufen:** [Gumroad](https://hchristian.gumroad.com/l/zbpyjs) · 79 € · nur für Unternehmer (§ 14 BGB)
+**Kaufen:** [Gumroad](https://hchristian.gumroad.com/l/vpayk) · 79 € · nur für Unternehmer (§ 14 BGB)
 
-Verkäufer: Christian Heilig (Previsa) · Impressum: [previsa.de/#impressum](https://previsa.de/#impressum)
+Verkäufer / Seller: Christian Heilig, Previsa KI (Einzelunternehmen), Clara-Schumann-Straße 11, 97241 Bergtheim, Deutschland, kontakt@previsa.de · Impressum: [previsa.de/#impressum](https://previsa.de/#impressum)
+
+Unabhängiges Produkt, nicht von Anthropic. Claude und Claude Code sind Marken von Anthropic. / Independent product, not made or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic.
 
 Licence / Lizenz: proprietary, see `LICENSE` in the package. This repository contains no source code.
