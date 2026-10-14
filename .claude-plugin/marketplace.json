@@ -1,0 +1,17 @@
+{
+  "name": "agent-mods",
+  "owner": {
+    "name": "Christian Heilig"
+  },
+  "description": "One quiet line in the conversation after every answer and a band above the prompt: context, 5-hour and weekly usage, session cost (optionally Codex usage, read-only). Never asks, never denies anything. Off switch: ~/.config/agent-mods/lagezeile.off. English or German display.",
+  "plugins": [
+    {
+      "name": "lagezeile",
+      "source": "./mods/lagezeile",
+      "description": "One quiet line in the conversation after every answer and a band above the prompt: context, 5-hour and weekly usage, session cost (optionally Codex usage, read-only). Never asks, never denies anything. Off switch: ~/.config/agent-mods/lagezeile.off. English or German display."
+    }
+  ],
+  "metadata": {
+    "version": "1.0.1"
+  }
+}
