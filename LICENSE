@@ -1,0 +1,56 @@
+lagezeile – Nutzungsbedingungen (kostenlos)
+Copyright (c) 2026 Christian Heilig (Previsa). Alle Rechte vorbehalten. Stand: 14.10.2026.
+Anschrift: Previsa KI (Einzelunternehmen), Clara-Schumann-Straße 11, 97241 Bergtheim, Deutschland, kontakt@previsa.de.
+
+1. Kostenlose Nutzung
+   Sie dürfen lagezeile kostenlos installieren und nutzen, zeitlich unbegrenzt, auf beliebig vielen
+   eigenen Geräten. Eigene Anpassungen für den eigenen Gebrauch sind erlaubt.
+
+2. Was nicht erlaubt ist
+   Ohne schriftliche Zustimmung dürfen Sie lagezeile oder veränderte Fassungen nicht weiterverbreiten,
+   nicht verkaufen und nicht als eigenes Produkt anbieten. Auf diese Quelle verlinken dürfen Sie immer.
+   Ausgenommen sind das Ansehen und Forken dieses Repositories auf GitHub nach den GitHub-Nutzungsbedingungen.
+
+3. Bestandteile Dritter
+   Siehe THIRD_PARTY_NOTICES.md. Für sie gelten deren eigene Lizenzen.
+
+4. Kein Anthropic-Produkt
+   lagezeile ist ein unabhängiges Erzeugnis von Christian Heilig. Es wird nicht von Anthropic
+   hergestellt, unterstützt oder empfohlen. "Claude" und "Claude Code" sind Marken von Anthropic.
+   Sie benötigen Claude Code und Ihren eigenen Zugang bei Anthropic; es gelten Ihre Bedingungen mit
+   Anthropic. lagezeile liest nur lokal vorhandene Werte (optional auch Codex-Verbrauch aus
+   ~/.codex/sessions), baut keine eigenen Netzverbindungen auf und sendet keine Nutzungsdaten (keine
+   Telemetrie).
+
+5. Haftung
+   lagezeile wird unentgeltlich überlassen. Wir haften nur für Vorsatz und grobe Fahrlässigkeit sowie
+   nach zwingendem Recht (insbesondere bei Arglist, bei Verletzung von Leben, Körper oder Gesundheit
+   und nach dem Produkthaftungsgesetz). Die angezeigten Werte sind Hinweise ohne Gewähr; lagezeile nutzt
+   eine Schnittstelle von Claude Code, die sich noch ändern kann.
+
+6. Recht
+   Es gilt deutsches Recht.
+
+---------------------------------------------------------------------------------------------------
+English convenience translation. Only the German text above is binding.
+
+lagezeile – Terms of Use (free). Copyright (c) 2026 Christian Heilig (Previsa). All rights reserved.
+As of 14 Oct 2026. Address: Previsa KI (sole proprietorship), Clara-Schumann-Straße 11, 97241 Bergtheim, Germany, kontakt@previsa.de.
+1. Free use: you may install and use lagezeile free of charge, without time limit, on any number of
+   your own devices. Your own modifications for your own use are permitted.
+2. Without written consent you may not redistribute lagezeile or modified versions, sell it or offer it
+   as your own product. Linking to this source is always allowed.
+   Excepted are viewing and forking this repository on GitHub under the GitHub Terms of Service.
+3. Third-party parts: see THIRD_PARTY_NOTICES.md; their own licences apply.
+4. Not an Anthropic product. lagezeile is an independent product by Christian Heilig, not made, endorsed
+   or supported by Anthropic. "Claude" and "Claude Code" are trademarks of Anthropic. You need Claude Code
+   and your own Anthropic account; your terms with Anthropic apply. lagezeile only reads locally available
+   values (optionally Codex usage from ~/.codex/sessions), opens no network connections of its own and
+   sends no usage data (no telemetry).
+5. Liability: lagezeile is provided free of charge. We are liable only for intent and gross negligence
+   and where mandatory law requires (in particular fraud, injury to life, body or health, and the
+   Product Liability Act). Displayed values are indications without warranty; lagezeile uses a Claude
+   Code interface that may still change.
+6. German law applies.
+
+Build ee07211567c875104364
