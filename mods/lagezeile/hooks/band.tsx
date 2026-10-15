@@ -71,7 +71,7 @@ const mitFrist = <T,>(p: Promise<T>, ms: number): Promise<T | undefined> =>
   })
 
 /** Liest Not-Aus und Verbrauch; ein Ergebnis als Ganzes. Fehler → undefined (nichts zeichnen). */
-async function lesen($: any): Promise<Stand | undefined> {
+async function leseStand($: any): Promise<Stand | undefined> {
   const ein = await liesEinstellungen($, 'lagezeile', FRIST_MS)
   if (!ein) return undefined
   if (ein.aus) return { aus: true }
@@ -91,7 +91,8 @@ export function registerBand(on: Parameters<Register>[0]) {
       if (e.props?.hasSurvey) return next(e)
       const jetzt = Date.now()
       if (jetzt >= gueltigBis && !laufend) {
-        laufend = lesen($).catch(() => undefined).finally(() => { laufend = undefined })
+        const lesevorgang = leseStand($)
+        laufend = lesevorgang.catch(() => undefined).finally(() => { laufend = undefined })
         const neu = await mitFrist(laufend, FRIST_MS)
         if (neu) { stand = neu; gueltigBis = Date.now() + CACHE_MS }   // Cache erst gültig, wenn fertig gelesen
         else if (jetzt >= gueltigBis) stand = undefined                 // Hänger/Fehler: lieber nichts zeigen als Altes
