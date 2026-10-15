@@ -35,7 +35,7 @@ async function liesEinstellungen($: any, mod: string, ms: number): Promise<Einst
   if (!ordner) return undefined
   const aus = await sicher(() => $.fs.exists(ausDatei(ordner, mod)), rest())
   if (!aus.ok || typeof aus.v !== 'boolean') return undefined
-  const h = typeof home.v === 'string' ? home.v : undefined
+  const heim = typeof home.v === 'string' ? home.v : undefined
   // Systemsprache (LC_ALL, LC_MESSAGES, LANG) – auch bei Not-Aus, damit z. B. /modellwahl richtig spricht.
   const systemSpracheLesen = async (): Promise<Sprache> => {
     const lcAll = await sicher(() => $.env.get('LC_ALL'), rest())
@@ -54,8 +54,8 @@ async function liesEinstellungen($: any, mod: string, ms: number): Promise<Einst
     const text = await sicher(() => lesen, rest())
     if (text.ok) { letzterName = anzeigeName(text.v); letzteSprache = konfigSprache(text.v) }
   }
-  if (aus.v) return { aus: true, home: h, sprache: letzteSprache ?? (await systemSpracheLesen()) }
-  return { aus: false, name: letzterName, home: h, sprache: letzteSprache ?? (await systemSpracheLesen()) }
+  if (aus.v) return { aus: true, home: heim, sprache: letzteSprache ?? (await systemSpracheLesen()) }
+  return { aus: false, name: letzterName, home: heim, sprache: letzteSprache ?? (await systemSpracheLesen()) }
 }
 
 
