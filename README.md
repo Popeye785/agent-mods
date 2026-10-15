@@ -1,5 +1,7 @@
 # agent-mods for Claude Code
 
+[Privacy](#privacy)
+
 ## lagezeile — free usage line
 
 See where you stand without asking: after an answer, one quiet line (only when the values changed) and a band above the prompt.
@@ -66,3 +68,7 @@ Verkäufer / Seller: Christian Heilig, Previsa KI (Einzelunternehmen), Clara-Sch
 Unabhängiges Produkt, nicht von Anthropic. Claude und Claude Code sind Marken von Anthropic. / Independent product, not made or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic.
 
 Licence / Lizenz: this repository contains only the source of the free mod lagezeile (terms: `LICENSE`). The paid mods are proprietary; their terms are in their packages. / Dieses Repository enthält nur den Quelltext des kostenlosen Mods lagezeile (Bedingungen: `LICENSE`). Die bezahlten Mods sind proprietär; ihre Bedingungen liegen im jeweiligen Paket.
+
+## Privacy
+
+**lagezeile** runs only on your computer and has no network access. It reads the usage values Claude Code provides (context, 5-hour and weekly usage, session cost), optionally Codex usage from local files in `~/.codex/sessions`, and an optional display name and language from `~/.config/agent-mods/config.json`. It stores nothing and sends nothing to us or anyone else. Questions: Christian Heilig, Previsa KI, Clara-Schumann-Straße 11, 97241 Bergtheim, Germany, kontakt@previsa.de.
